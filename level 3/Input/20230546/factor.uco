@@ -1,0 +1,41 @@
+           bgn 0
+           ldp
+           call main
+           end
+main       proc 4
+           sym 2 0 1
+           sym 2 1 1
+           sym 2 2 1
+           ldp
+           lda 2 0
+           push
+           call read
+           ldc 2
+           str 2 1
+$$0        nop
+           lod 2 0
+           ldc 1
+           eq
+           fjp $$1
+           ret
+$$1        nop
+           lod 2 0
+           lod 2 1
+           mod
+           ldc 0
+           eq
+           fjp $$2
+           lod 2 1
+           ldp
+           push
+           call write
+           lod 2 0
+           lod 2 1
+           div
+           str 2 0
+           ujp $$0
+$$2        nop
+           lod 2 1
+           inc
+           str 2 1
+           ujp $$0

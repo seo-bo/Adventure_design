@@ -1,0 +1,24 @@
+           bgn 0
+           ldp
+           call main
+           end
+main       proc 2
+           sym 2 0 1
+           sym 2 1 1
+           ldp
+           lda 2 0
+           push
+           call read
+           lod 2 0
+           ldc 2
+           mod
+           ldc 0
+           eq
+           str 2 1
+           ldp
+           lod 2 1
+           push
+           call write
+           ldp
+           call lf
+           ret

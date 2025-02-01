@@ -1,0 +1,91 @@
+﻿  bestfit.cpp
+  bst.cpp
+  heap.cpp
+  main.cpp
+  mainwindow.cpp
+  merge_sort.cpp
+  sub.cpp
+  utility.cpp
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x386 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x46 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x388 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x389 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x47 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x48 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x397 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x399 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x4a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x39a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x4b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\merge_sort.cpp(1,1): warning C4828: 파일에 0x39c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x4c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x4d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x4f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x50 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x54 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x55 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x56 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x57 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x230 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x232 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x233 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x241 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x243 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x244 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x246 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x269 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x26a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x26c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x26e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x26f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x270 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x271 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x273 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x274 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x276 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x278 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x279 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x27a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x27b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x27d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x27f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x282 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x283 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x284 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2e2 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2e3 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2e5 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2e7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2e8 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2ec 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2ed 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2ee 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x2f1 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x346 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x347 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x349 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x34b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x34c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x350 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x351 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x352 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x355 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6b4 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6b5 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6b7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6b9 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6ba 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6be 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6bf 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6c0 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x6c3 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x734 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x737 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x739 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x73a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x73e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x73f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x740 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\보경\source\repos\bestfit\utility.cpp(1,1): warning C4828: 파일에 0x743 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+  moc_mainwindow.cpp
+  bestfit.vcxproj -> C:\Users\보경\source\repos\bestfit\x64\Debug\bestfit.exe

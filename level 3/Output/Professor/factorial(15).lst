@@ -1,0 +1,80 @@
+addr  object    ucode   source program           
+-------------------------------------------------------
+0     1         bgn     bgn 0                    
+2     34        ldp     ldp                      
+4     31        call    call main                
+6     36        end     end                      
+8     35        proc    factorial proc 1         
+10    2         sym     sym 2 0 1                
+12    3         lod     lod 2 0                  
+14    5         ldc     ldc 1                    
+16    23        eq      eq                       
+18    30        fjp     fjp $$0                  
+20    5         ldc     ldc 1                    
+22    32        ret     ret                      
+24    0         nop     $$0 nop                  
+26    3         lod     lod 2 0                  
+28    34        ldp     ldp                      
+30    3         lod     lod 2 0                  
+32    5         ldc     ldc 1                    
+34    15        sub     sub                      
+36    33        push    push                     
+38    31        call    call factorial           
+40    16        mult    mult                     
+42    32        ret     ret                      
+44    35        proc    main proc 2              
+46    2         sym     sym 2 0 1                
+48    2         sym     sym 2 1 1                
+50    34        ldp     ldp                      
+52    4         lda     lda 2 0                  
+54    33        push    push                     
+56    31        call    call read                
+58    34        ldp     ldp                      
+60    3         lod     lod 2 0                  
+62    33        push    push                     
+64    31        call    call factorial           
+66    6         str     str 2 1                  
+68    34        ldp     ldp                      
+70    3         lod     lod 2 1                  
+72    33        push    push                     
+74    31        call    call write               
+76    34        ldp     ldp                      
+78    31        call    call lf                  
+80    32        ret     ret                      
+
+****    Result    ****
+Mstack Usage: 64
+Output:
+3628800	
+
+**********************
+
+****  Static Instruction Counts ****
+
+nop = 1                  	str = 1                  	bgn = 1                  	lod = 5                  
+ldi = 0                  	lda = 1                  	or = 0                   	sym = 3                  
+ldc = 3                  	sti = 0                  	end = 1                  	not = 0                  
+proc = 2                 	neg = 0                  	inc = 0                  	dec = 0                  
+dup = 0                  	add = 0                  	sub = 1                  	mult = 1                 
+div = 0                  	mod = 0                  	gt = 0                   	lt = 0                   
+ge = 0                   	le = 0                   	eq = 1                   	write = 0                
+ne = 0                   	and = 0                  	swp = 0                  	ujp = 0                  
+tjp = 0                  	fjp = 1                  	call = 6                 	ret = 3                  
+push = 4                 	lf = 0                   	ldp = 6                  	read = 0                 
+
+
+**** Dynamic Instruction Counts ****
+
+nop = 0                  	str = 1                  	bgn = 2                  	lod = 30                 
+ldi = 0                  	lda = 1                  	or = 0                   	sym = 12                 
+ldc = 20                 	sti = 0                  	end = 1                  	not = 0                  
+proc = 11                	neg = 0                  	inc = 0                  	dec = 0                  
+dup = 0                  	add = 0                  	sub = 9                  	mult = 9                 
+div = 0                  	mod = 0                  	gt = 0                   	lt = 0                   
+ge = 0                   	le = 0                   	eq = 10                  	write = 1                
+ne = 0                   	and = 0                  	swp = 0                  	ujp = 0                  
+tjp = 0                  	fjp = 10                 	call = 14                	ret = 11                 
+push = 12                	lf = 1                   	ldp = 14                 	read = 1                 
+
+
+Total Instruction Execution: 170

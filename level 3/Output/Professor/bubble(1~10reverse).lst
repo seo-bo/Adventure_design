@@ -1,0 +1,173 @@
+addr  object    ucode   source program           
+-------------------------------------------------------
+0     1         bgn     bgn 100                  
+2     2         sym     sym 1 0 100              
+4     34        ldp     ldp                      
+6     31        call    call main                
+8     36        end     end                      
+10    35        proc    main proc 2              
+12    2         sym     sym 2 0 1                
+14    2         sym     sym 2 1 1                
+16    34        ldp     ldp                      
+18    31        call    call read_elm            
+20    6         str     str 2 0                  
+22    34        ldp     ldp                      
+24    3         lod     lod 2 0                  
+26    33        push    push                     
+28    31        call    call bubble              
+30    5         ldc     ldc 0                    
+32    6         str     str 2 1                  
+34    0         nop     $$0 nop                  
+36    3         lod     lod 2 1                  
+38    3         lod     lod 2 0                  
+40    20        lt      lt                       
+42    30        fjp     fjp $$1                  
+44    34        ldp     ldp                      
+46    3         lod     lod 2 1                  
+48    13        dup     dup                      
+50    4         lda     lda 1 0                  
+52    14        add     add                      
+54    7         ldi     ldi                      
+56    33        push    push                     
+58    31        call    call write               
+60    11        inc     inc                      
+62    6         str     str 2 1                  
+64    28        ujp     ujp $$0                  
+66    0         nop     $$1 nop                  
+68    34        ldp     ldp                      
+70    31        call    call lf                  
+72    32        ret     ret                      
+74    35        proc    read_elm proc 2          
+76    2         sym     sym 2 0 1                
+78    2         sym     sym 2 1 1                
+80    5         ldc     ldc 0                    
+82    6         str     str 2 1                  
+84    34        ldp     ldp                      
+86    4         lda     lda 2 0                  
+88    33        push    push                     
+90    31        call    call read                
+92    0         nop     $$2 nop                  
+94    3         lod     lod 2 0                  
+96    5         ldc     ldc 0                    
+98    24        ne      ne                       
+100   30        fjp     fjp $$3                  
+102   3         lod     lod 2 1                  
+104   4         lda     lda 1 0                  
+106   14        add     add                      
+108   3         lod     lod 2 0                  
+110   8         sti     sti                      
+112   3         lod     lod 2 1                  
+114   11        inc     inc                      
+116   6         str     str 2 1                  
+118   34        ldp     ldp                      
+120   4         lda     lda 2 0                  
+122   33        push    push                     
+124   31        call    call read                
+126   28        ujp     ujp $$2                  
+128   0         nop     $$3 nop                  
+130   3         lod     lod 2 1                  
+132   32        ret     ret                      
+134   35        proc    bubble proc 4            
+136   2         sym     sym 2 0 1                
+138   2         sym     sym 2 1 1                
+140   2         sym     sym 2 2 1                
+142   2         sym     sym 2 3 1                
+144   3         lod     lod 2 0                  
+146   5         ldc     ldc 1                    
+148   15        sub     sub                      
+150   6         str     str 2 2                  
+152   0         nop     $$4 nop                  
+154   3         lod     lod 2 2                  
+156   5         ldc     ldc 0                    
+158   19        gt      gt                       
+160   30        fjp     fjp $$5                  
+162   5         ldc     ldc 0                    
+164   6         str     str 2 1                  
+166   0         nop     $$6 nop                  
+168   3         lod     lod 2 1                  
+170   3         lod     lod 2 2                  
+172   20        lt      lt                       
+174   30        fjp     fjp $$7                  
+176   3         lod     lod 2 1                  
+178   4         lda     lda 1 0                  
+180   14        add     add                      
+182   7         ldi     ldi                      
+184   3         lod     lod 2 1                  
+186   5         ldc     ldc 1                    
+188   14        add     add                      
+190   4         lda     lda 1 0                  
+192   14        add     add                      
+194   7         ldi     ldi                      
+196   19        gt      gt                       
+198   30        fjp     fjp $$8                  
+200   3         lod     lod 2 1                  
+202   4         lda     lda 1 0                  
+204   14        add     add                      
+206   7         ldi     ldi                      
+208   6         str     str 2 3                  
+210   3         lod     lod 2 1                  
+212   4         lda     lda 1 0                  
+214   14        add     add                      
+216   3         lod     lod 2 1                  
+218   5         ldc     ldc 1                    
+220   14        add     add                      
+222   4         lda     lda 1 0                  
+224   14        add     add                      
+226   7         ldi     ldi                      
+228   8         sti     sti                      
+230   3         lod     lod 2 1                  
+232   5         ldc     ldc 1                    
+234   14        add     add                      
+236   4         lda     lda 1 0                  
+238   14        add     add                      
+240   3         lod     lod 2 3                  
+242   8         sti     sti                      
+244   0         nop     $$8 nop                  
+246   3         lod     lod 2 1                  
+248   11        inc     inc                      
+250   6         str     str 2 1                  
+252   28        ujp     ujp $$6                  
+254   0         nop     $$7 nop                  
+256   3         lod     lod 2 2                  
+258   12        dec     dec                      
+260   6         str     str 2 2                  
+262   28        ujp     ujp $$4                  
+264   0         nop     $$5 nop                  
+266   32        ret     ret                      
+
+****    Result    ****
+Mstack Usage: 1348
+Output:
+1	2	3	4	5	6	7	8	9	10	
+
+**********************
+
+****  Static Instruction Counts ****
+
+nop = 9                  	str = 10                 	bgn = 1                  	lod = 22                 
+ldi = 5                  	lda = 10                 	or = 0                   	sym = 9                  
+ldc = 9                  	sti = 3                  	end = 1                  	not = 0                  
+proc = 3                 	neg = 0                  	inc = 3                  	dec = 1                  
+dup = 1                  	add = 11                 	sub = 1                  	mult = 0                 
+div = 0                  	mod = 0                  	gt = 2                   	lt = 2                   
+ge = 0                   	le = 0                   	eq = 0                   	write = 0                
+ne = 1                   	and = 0                  	swp = 0                  	ujp = 4                  
+tjp = 0                  	fjp = 5                  	call = 7                 	ret = 3                  
+push = 4                 	lf = 0                   	ldp = 7                  	read = 0                 
+
+
+**** Dynamic Instruction Counts ****
+
+nop = 49                 	str = 124                	bgn = 2                  	lod = 523                
+ldi = 174                	lda = 269                	or = 0                   	sym = 9                  
+ldc = 152                	sti = 84                 	end = 1                  	not = 0                  
+proc = 3                 	neg = 0                  	inc = 65                 	dec = 9                  
+dup = 10                 	add = 377                	sub = 1                  	mult = 0                 
+div = 0                  	mod = 0                  	gt = 55                  	lt = 65                  
+ge = 0                   	le = 0                   	eq = 0                   	write = 10               
+ne = 11                  	and = 0                  	swp = 0                  	ujp = 74                 
+tjp = 0                  	fjp = 131                	call = 25                	ret = 3                  
+push = 22                	lf = 1                   	ldp = 25                 	read = 11                
+
+
+Total Instruction Execution: 2285

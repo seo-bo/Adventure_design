@@ -1,0 +1,25 @@
+main       proc 5
+           sym 2 0 1      % i
+           ldc 1          % i = 1
+           str 2 0
+$$0        nop            % begin of while
+           lod 2 0
+           ldc 10         % 조건: i <= 10
+           le
+           fjp $$1
+           ldp
+           lod 2 0        % i 출력
+           push
+           call write
+           lod 2 0        % i++
+           inc
+           str 2 0
+           ujp $$0        % 반복
+$$1        nop            % end of while
+           ldp
+           call lf        % 줄 바꿈
+           ret
+           bgn 1
+           ldp
+           call main
+           end

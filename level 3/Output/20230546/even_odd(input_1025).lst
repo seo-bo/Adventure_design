@@ -1,0 +1,63 @@
+addr  object    ucode   source program           
+-------------------------------------------------------
+0     1         bgn     bgn 0                    
+2     34        ldp     ldp                      
+4     31        call    call main                
+6     36        end     end                      
+8     35        proc    main proc 2              
+10    2         sym     sym 2 0 1                
+12    2         sym     sym 2 1 1                
+14    34        ldp     ldp                      
+16    4         lda     lda 2 0                  
+18    33        push    push                     
+20    31        call    call read                
+22    3         lod     lod 2 0                  
+24    5         ldc     ldc 2                    
+26    18        mod     mod                      
+28    5         ldc     ldc 0                    
+30    23        eq      eq                       
+32    6         str     str 2 1                  
+34    34        ldp     ldp                      
+36    3         lod     lod 2 1                  
+38    33        push    push                     
+40    31        call    call write               
+42    34        ldp     ldp                      
+44    31        call    call lf                  
+46    32        ret     ret                      
+
+****    Result    ****
+Mstack Usage: 8
+Output:
+0	
+
+**********************
+
+****  Static Instruction Counts ****
+
+nop = 0                  	str = 1                  	bgn = 1                  	lod = 2                  
+ldi = 0                  	lda = 1                  	or = 0                   	sym = 2                  
+ldc = 2                  	sti = 0                  	end = 1                  	not = 0                  
+proc = 1                 	neg = 0                  	inc = 0                  	dec = 0                  
+dup = 0                  	add = 0                  	sub = 0                  	mult = 0                 
+div = 0                  	mod = 1                  	gt = 0                   	lt = 0                   
+ge = 0                   	le = 0                   	eq = 1                   	write = 0                
+ne = 0                   	and = 0                  	swp = 0                  	ujp = 0                  
+tjp = 0                  	fjp = 0                  	call = 4                 	ret = 1                  
+push = 2                 	lf = 0                   	ldp = 4                  	read = 0                 
+
+
+**** Dynamic Instruction Counts ****
+
+nop = 0                  	str = 1                  	bgn = 2                  	lod = 2                  
+ldi = 0                  	lda = 1                  	or = 0                   	sym = 2                  
+ldc = 2                  	sti = 0                  	end = 1                  	not = 0                  
+proc = 1                 	neg = 0                  	inc = 0                  	dec = 0                  
+dup = 0                  	add = 0                  	sub = 0                  	mult = 0                 
+div = 0                  	mod = 1                  	gt = 0                   	lt = 0                   
+ge = 0                   	le = 0                   	eq = 1                   	write = 1                
+ne = 0                   	and = 0                  	swp = 0                  	ujp = 0                  
+tjp = 0                  	fjp = 0                  	call = 4                 	ret = 1                  
+push = 2                 	lf = 1                   	ldp = 4                  	read = 1                 
+
+
+Total Instruction Execution: 28
